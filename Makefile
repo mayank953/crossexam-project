@@ -14,3 +14,7 @@ down:  ## stop step 4's Postgres + API
 	docker compose down
 reset:  ## stop step 4's Postgres + API and delete the database
 	docker compose down -v
+
+
+
+# postgresql://crossexam:crossexam@localhost:5433/crossexam  user:crossexam pass:crossexam  db:crossexam  port:5433
